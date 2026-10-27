@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title description">
+  <title id="title">Sample red apple</title>
+  <desc id="description">A red apple with a green leaf on a soft cream background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f6eb"/>
+      <stop offset="1" stop-color="#e9f0dc"/>
+    </linearGradient>
+    <radialGradient id="apple" cx=".35" cy=".22" r=".82">
+      <stop offset="0" stop-color="#ff7566"/>
+      <stop offset=".58" stop-color="#e74337"/>
+      <stop offset="1" stop-color="#ae241f"/>
+    </radialGradient>
+    <filter id="shadow" x="-.3" y="-.4" width="1.6" height="1.9">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" rx="28" fill="url(#background)"/>
+  <circle cx="320" cy="228" r="151" fill="#ffffff" opacity=".22"/>
+  <ellipse cx="320" cy="386" rx="138" ry="17" fill="#65744d" opacity=".2" filter="url(#shadow)"/>
+  <path d="M321 164c-8-30-5-53 10-72 10-13 25-19 42-19-2 23-10 41-24 55-8 8-17 13-28 15Z" fill="#567f3b"/>
+  <path d="M332 131c12-24 24-38 39-48" fill="none" stroke="#d0dfac" stroke-width="4" stroke-linecap="round"/>
+  <path d="M319 168c-34-27-76-20-111-6-44 17-70 58-67 112 4 72 43 123 107 126 26 1 48-15 72-15 25 0 47 16 73 15 64-3 103-54 107-126 3-54-23-95-67-112-36-14-79-21-114 6Z" fill="url(#apple)"/>
+  <path d="M187 237c5-32 19-55 43-68" fill="none" stroke="#ffafa0" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+  <ellipse cx="227" cy="197" rx="11" ry="6" transform="rotate(-48 227 197)" fill="#fff" opacity=".7"/>
+  <path d="M319 168c-3 13-3 22 0 29" fill="none" stroke="#8c241d" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+  <path d="M320 168c-6 10-14 16-25 19m25-19c7 10 15 16 26 19" fill="none" stroke="#ac2c24" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+</svg>
